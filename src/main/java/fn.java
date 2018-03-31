@@ -25,7 +25,7 @@ public class fn {
   }
   public static int countTokenChars(String input) {
     int sum = 0;
-    for (int i = 0; i < input.length; i++) {
+    for (int i = 0; i < input.length(); i++) {
       char target = input.charAt(i);
       if (target == token) {
         sum++;
