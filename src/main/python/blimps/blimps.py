@@ -23,7 +23,7 @@ maxProfit = 0
 
 for i in [x / 100.0 for x in range(1, 100001, 1)]:
     N = max(0, min(300, math.floor((300000)/(i) - i*X)))
-    p = N*i - (Fp + Bp)*N - (Fs + Bs)
+    p = N*(i - Fp - Bp) - (Fs + Bs)
     if p > maxProfit:
         lowestPrice = i
         maxProfit = p
