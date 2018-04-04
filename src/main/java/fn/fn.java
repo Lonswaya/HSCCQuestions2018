@@ -1,3 +1,5 @@
+package fn;
+
 import java.util.Scanner;
 
 /**

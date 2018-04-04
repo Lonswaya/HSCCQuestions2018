@@ -1,24 +1,26 @@
+package oil;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 /**
  * Oil
- * A large oil company is drilling for oil, and has nearly exhausted their resources. 
+ * A large oil company is drilling for oil, and has nearly exhausted their resources.
  * They give you a grid full of values that represent plotted land that either has oil, or does not.
  * To drill the oil, they need to insert a pump into only well at a time.
- * If two grids are connected, they are considered as one well. 
+ * If two grids are connected, they are considered as one well.
  * A diagonal connection still counts as a well connection.
  * Return all points where each well group can be drilled.
  * Example grid:
  * |-------------|
- * |x| |x|x| | | | 
+ * |x| |x|x| | | |
  * |-------------|
  * | | | |x| | | |
  * |-------------|
  * | | |x| | | |x|
  * |-------------|
- * | |x| | | |x| | 
+ * | |x| | | |x| |
  * |-------------|
  */
 
@@ -107,7 +109,7 @@ class oil {
         List<Tile> tilesToReturn = new ArrayList<Tile>();
         for (int subX = x - 1; subX <= x + 1; subX++) {
             for (int subY = y - 1; subY <= y + 1; subY++) {
-                if (subX >= 0 && subY >= 0 &&
+                if ((x == subX || y == subY) && subX >= 0 && subY >= 0 &&
                         subX < grid.length && subY < grid[x].length) {
                     Tile focus = grid[subX][subY];
                     if (focus.isWell) {
