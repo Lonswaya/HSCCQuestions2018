@@ -1,0 +1,3 @@
+"no" appears in the sentence 7 times. The words behind "no" are "pomegranates", "no", "no", "no", "pomegranates", "I", and "pomegranates". Both "no" and "pomegranates" appear 3 times, pomegranates is selected since it is the last occurrence after "no". 
+no
+

@@ -1,0 +1,3 @@
+A soccer tournament is being played, however instead of single elimination, rankings are done by total number of goals. It is not necessary for all teams to play against one another, but all teams will play the same amount of games. Figure out the ranking of the teams. Print the teams in order of highest rank to lowest rank. If teams have the same number of wins, print them on the same line with a single space between teams.
+teams
+
