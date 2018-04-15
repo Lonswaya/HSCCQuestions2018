@@ -14,20 +14,7 @@ class Tuple<X, Y> {
 }
 public class Tournament {
     public static void main(String[] args) throws FileNotFoundException {
-          /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
-        // Creating a File object that represents the disk file.
-        String out = "out";
-        String in = "in";
-        String num = "1.txt";
-        PrintStream o = new PrintStream(new File("C:\\Users\\Jean-Michael\\Documents\\Computer Science\\HSCC\\src\\Tournament\\" + (out+num)));
-        // Store current System.out before assigning a new value
-        PrintStream console = System.out;
-        // Assign o to output stream
-        System.setOut(o);
-
-        File file = new File("C:\\Users\\Jean-Michael\\Documents\\Computer Science\\HSCC\\src\\Tournament\\" + (in+num));
-        Scanner s = new Scanner(file);
-        //Scanner s = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
         int n = s.nextInt();
         s.nextLine();
         HashMap<String, Integer> teams = new HashMap<>();
@@ -92,6 +79,5 @@ public class Tournament {
             }
         }
         System.out.println(line);
-        System.setOut(console);
     }
 }
