@@ -1,0 +1,6 @@
+5
+Red
+Blue
+Blue
+Red
+Black
