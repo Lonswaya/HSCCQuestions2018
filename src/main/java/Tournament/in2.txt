@@ -1,0 +1,7 @@
+6
+Alliance Reachers 4 3
+Republic Knights 2 0
+Blaze Scorchers 0 1
+Blaze Reachers 3 5
+Republic Scorchers 6 4
+Alliance Knights 0 0

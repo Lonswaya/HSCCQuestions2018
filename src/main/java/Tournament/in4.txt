@@ -1,0 +1,13 @@
+12
+Stars Boomers 3 8
+Men Knights 4 2
+Cruisers Scorchers 4 4
+Cruisers Boomers 2 6
+Men Scorchers 2 8
+Stars Knights 1 1
+Stars Boomers 6 2
+Men Knights 2 7
+Cruisers Scorchers 1 1
+Cruisers Boomers 7 5
+Men Scorchers 6 4
+Stars Knights 4 0

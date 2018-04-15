@@ -1,0 +1,5 @@
+4
+Sharks Bats 5 2
+Outlaws Titans 6 3
+Poodles Royals 0 4
+Jumpers Minions 8 1

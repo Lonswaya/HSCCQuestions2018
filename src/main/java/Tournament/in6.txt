@@ -1,0 +1,9 @@
+8
+Royals Tigers 5 6
+Royals Kings 0 2
+Snipers Tigers 1 1
+Snipers Gnomes 2 4
+Bigfoot Lions 5 8
+Bigfoot Gnomes 12 4
+Mace Kings 6 2
+Mace Lions 7 3
